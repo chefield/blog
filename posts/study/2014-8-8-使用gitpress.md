@@ -25,58 +25,49 @@
 
 这是gitpress.org配置：
 
-```json
+```
 {
-        "docs"      : {
-                "关于我的博客": "README.md",
-                "gitpress": "posts/gitpress",
-                "PHP": "posts/PHP",
-                "Python": "posts/python",
-                "JavaScript": "posts/JavaScript",
-                "算法": "posts/算法",
-                "其他": "posts"
-        },        
-        "perpage"   : 5,
-        "types"     : {
-                "\\.(md||markdown)$"   : "markdown", 
-                "\\.(js||css||json)$"  : "code",
-                "\\.html?$"            : "html",
-                ".*"                   : "text"                
-        },
-        "title"  : "Akira's Blog",
-        "comment"  : "on",
-        "domain_alias"  : ["blog.silverna.org"],
-        "friends"  : [
-                {
-                        "name"  : "JerryQu的小站",
-                        "title"  : "屈屈的博客",
-                        "url"  : "http://imququ.com"                  
-                },
-                {
-                        "name"  : "奇舞团",
-                        "title"  : "奇舞团官方博客",
-                        "url"  : "http://www.75team.com"
-                },
-                {
-                        "name"  : "typeof.net",
-                        "title" : "typeof.net",
-                        "url"  :  "http://typeof.net/"
-                },
-                {
-                        "name"  : "never-online",
-                        "title" : "rank's technical notes",
-                        "url"        : "http://never-online.net/blog/"
-                },
-                {
-                        "name"  : "aoao",
-                        "title" : "样式之美 | 没落的角落",
-                        "url"   : "http://www.aoao.org.cn/"
-                }
-        ] 
+	"docs"      : {
+		"about": "README.md",
+		"study": "posts/study",
+		"work": "posts/work",
+		"life": "posts/life",
+		"emot": "posts/emot",
+		"essay": "posts/essay"
+	},	
+	"perpage"   : 10,
+	"template"  : "pithiness",
+	"types"     : {
+		"\\.(md||markdown)$"   : "markdown", 
+		"\\.(js||css||json)$"  : "code",
+		"\\.html?$"            : "html",
+		".*"                   : "text"		
+	},
+	"title"  : "Che Field",
+	"comment"  : {"type": "duoshuo", "short_name":"chefield"},
+	"friends"  : [
+		{
+			"name"  : "Akira's Blog",
+			"title"  : "gitpress月影",
+			"url"  : "http://blog.silverna.org/"		  
+		},
+		{
+			"name"  : "Yanping's Blog",
+			"title"  : "gitpage雁平",
+			"url"  : "http://yanping.me/"		  
+		},
+		{
+			"name"  : "FReehao123",
+			"title"  : "免费资源部落",
+			"url"  : "http://www.freehao123.com/"		  
+		}
+	]
+
 }
+
 ```
 
-`docs`属性指定了博客文章放在`posts`目录下，分成几个子目录，每个目录为一个分类。`perpage`属性指定了每一页显示5篇文章，`types`属性是文档类型的对应保持默认就好，可以不用管它。`title`如果不写的话，那么系统自动获取你的项目的`title`，`comment`属性是`on`，表示允许文章的评论，`domain_alias`属性把自己的域名指向博客，这样就可以用自己的域名来访问。如果你有属于自己的域名，可以先将你想使用的域名配置DNS解析到gitpress.org（设置CNAME到gitpress.org或者A记录到162.243.44.85），设置好之后等待两三分钟，先用原本的gitpress.org域名访问一次（为了让服务器更新配置），然后就可以用你的新域名访问了。`friends`是博客右侧的友情链接。
+`docs`属性指定了博客文章放在`posts`目录下，分成几个子目录，每个目录为一个分类。`perpage`属性指定了每一页显示几篇文章，`types`属性是文档类型的对应保持默认就好，可以不用管它。`title`如果不写的话，那么系统自动获取你的项目的`title`，`comment`属性是`on`，表示允许文章的评论，`domain_alias`属性把自己的域名指向博客，这样就可以用自己的域名来访问。如果你有属于自己的域名，可以先将你想使用的域名配置DNS解析到gitpress.org（设置CNAME到gitpress.org或者A记录到162.243.44.85），设置好之后等待两三分钟，先用原本的gitpress.org域名访问一次（为了让服务器更新配置），然后就可以用你的新域名访问了。`friends`是博客右侧的友情链接。
 
 
 ### gitpress 文章分类

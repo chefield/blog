@@ -1,6 +1,6 @@
 ﻿{
 	"docs"      : {
-		"关于我的博客": "README.md",
+		"about": "README.md",
 		"study": "posts/study",
 		"work": "posts/work",
 		"life": "posts/life",

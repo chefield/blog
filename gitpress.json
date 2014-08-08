@@ -16,7 +16,6 @@
 	},
 	"title"  : "Che Field",
 	"comment"  : {"type": "duoshuo", "short_name":"field"},
-	"domain-alias"  : ["~", "", "", ""],
 	"friends"  : [
 		{
 			"name"  : "",

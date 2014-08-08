@@ -16,7 +16,7 @@
 		".*"                   : "text"		
 	},
 	"title"  : "Che Field",
-	"comment"  : {"type": "duoshuo", "short_name":"field"},
+	"comment"  : {"type": "duoshuo", "short_name":"chefield"},
 	"friends"  : [
 		{
 			"name"  : "Akira's Blog",

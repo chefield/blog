@@ -1,0 +1,32 @@
+{
+	"docs"      : {
+		"关于我的博客": "README.md",
+		"gitpress": "posts/gitpress",
+		"算法": "posts/算法",
+		"生活": "posts/生活",
+		"其他": "posts"
+	},	
+	"perpage"   : 10,
+	"template"  : "pithiness",
+	"types"     : {
+		"\\.(md||markdown)$"   : "markdown", 
+		"\\.(js||css||json)$"  : "code",
+		"\\.html?$"            : "html",
+		".*"                   : "text"		
+	},
+	"title"  : "Che Field",
+	"comment"  : {"type": "duoshuo", "short_name":"field"},
+	"domain-alias"  : ["~", "", "", ""],
+	"friends"  : [
+		{
+			"name"  : "",
+			"title"  : "",
+			"url"  : ""		  
+		},
+		{
+			"name" : "",
+			"title": "",
+			"url"  : ""
+		}
+	] 
+}

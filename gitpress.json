@@ -8,7 +8,7 @@
 		"essay": "posts/essay"
 	},	
 	"perpage"   : 10,
-	"template"  : "default",
+	"template"  : "pithiness",
 	"types"     : {
 		"\\.(md||markdown)$"   : "markdown", 
 		"\\.(js||css||json)$"  : "code",
@@ -16,6 +16,23 @@
 		".*"                   : "text"		
 	},
 	"title"  : "Che Field",
-	"comment"  : {"type": "duoshuo", "short_name":"field"}
+	"comment"  : {"type": "duoshuo", "short_name":"field"},
+	"friends"  : [
+		{
+			"name"  : "Akira's Blog",
+			"title"  : "gitpress月影",
+			"url"  : "http://blog.silverna.org/"		  
+		},
+		{
+			"name"  : "Yanping's Blog",
+			"title"  : "gitpage雁平",
+			"url"  : "http://yanping.me/"		  
+		},
+		{
+			"name"  : "FReehao123",
+			"title"  : "免费资源部落",
+			"url"  : "http://www.freehao123.com/"		  
+		}
+	]
 
 }

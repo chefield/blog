@@ -7,7 +7,7 @@
 		"其他": "posts"
 	},	
 	"perpage"   : 10,
-	"template"  : "pithiness",
+	"template"  : "default",
 	"types"     : {
 		"\\.(md||markdown)$"   : "markdown", 
 		"\\.(js||css||json)$"  : "code",
@@ -15,17 +15,6 @@
 		".*"                   : "text"		
 	},
 	"title"  : "Che Field",
-	"comment"  : {"type": "duoshuo", "short_name":"field"},
-	"friends"  : [
-		{
-			"name"  : "",
-			"title"  : "",
-			"url"  : ""		  
-		},
-		{
-			"name" : "",
-			"title": "",
-			"url"  : ""
-		}
-	] 
+	"comment"  : {"type": "duoshuo", "short_name":"field"}
+
 }

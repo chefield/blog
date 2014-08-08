@@ -15,7 +15,7 @@
 		"\\.html?$"            : "html",
 		".*"                   : "text"		
 	},
-	"title"  : "Che Field",
+	"title"  : "Tian Jun",
 	"comment"  : {"type": "duoshuo", "short_name":"field"},
 	"friends"  : [
 		{

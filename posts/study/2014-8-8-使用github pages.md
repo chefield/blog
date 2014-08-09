@@ -133,14 +133,6 @@ gem install rdiscount kramdown
 ```
 这样git会把存放在github上的代码库文件下载到本地的，生成名为example的目录。删除该目录下的index.html，这是系统生成的，不是我想要的页面，注意不要把.git目录删除，这是个隐藏目录，里面包含这个代码库的配置信息，以上的步骤都是为了得到这些配置信息且避免了使用命令。
 
-要注意的几点
-```
--我的github用户名为yanping，如果我建立名为yanping.github.com的代码库，必须在master分支下的才可以看到页面。在本例中我建的是普通的项目代码库，系统自动生成的github pages是在gh-pages这个分支下的。在以上的操作中，我并没有对分支进行任何操作，都是系统自动完成的。
-
--创建个人主页面username.github.com的步骤请看[GotGithub](http://www.worldhello.net/gotgithub/03-project-hosting/050-homepage.html#user-homepage)教程
-
--git@github.com:yanping/example.git 是example的路径，它的规则是 git@github.com:用户名/代码库名.git
-```
 克隆别人的代码库。在本地另一位置，克隆别人的代码库，比如
 ```
   git clone git@github.com:mojombo/mojombo.github.com.git
@@ -228,7 +220,7 @@ git push
 -clone别人的代码库到本地后，没有把它的.git目录删除
 -没有把别人页面里的配置部分彻底改掉，比如disqus的配置，CNAME文件，<title>等
 
-####user site
+####说明
 
 在github根目录下创建名字为`username.github.io`的repository，勾选`Initialize this repository with a README`。然后将repository clone到本地，可以通过`Github for Windows`和`git bash terminal`。terminal命令如下：
 
